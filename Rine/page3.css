@@ -1,0 +1,126 @@
+body{
+    overflow-x: hidden;
+}
+*{
+    font-family: sans-serif;
+}
+.navbar{
+    background-color: brown;
+    }
+.navbar a{
+        padding: 1%;
+    color: white;
+    
+}
+/* ################################### */
+/* LEFT COLUM  */
+/* ################################### */
+.lftdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lftdv-btn{
+    margin-top: 5px;
+
+}
+/* frmaes section */
+.frames-sec{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.frames{
+    font-weight: bold;
+}
+
+.templates{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* background-color: aquamarine; */
+    justify-content: center;
+    align-items: center;
+}
+
+.tmplate-btn{
+    width: 100%;
+    margin: 10px;
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    border-color: none;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.btn-img{
+width: 50px !important;
+height: 50px !important;;
+
+}
+.tmplate-btn:hover{
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 0px ,
+    0em  0em 1em rgb(175, 95, 95);
+    background-color: antiquewhite;
+    border-color: rgb(30, 206, 206);
+}
+
+/* MIDDLE DIV */
+.innerdiv{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+/* second file */
+
+/* #####################3 */
+/* left div */
+.outerdiv{
+
+    display: flex;
+    flex-direction: column;
+    /* height: 100%; */
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+#dashbord-btn{
+    width: 100%;
+    margin: 1%;
+    /* margin-left: 50%; */
+
+}
+.btn-nxt{
+/* height: 100%; */
+width: 100%;
+
+/* display: flex; */
+justify-content: center;
+align-items: flex-end;
+}
+
+.nxt-btn{
+    /* display:flex; */
+    width: 40%;
+    float: right; 
+    margin-right: 8%;
+     background-color: transparent; 
+     border-radius: 15%; 
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    padding: 2%;
+    cursor: pointer;
+}
+
+.nxt-btn:hover{
+    background-color: brown;
+    color: white;
+    }

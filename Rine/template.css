@@ -1,0 +1,108 @@
+
+.tmp-div{
+    /* background-color:brown ; */
+    /* border: 5px solid black; */
+    height: 70vh;
+    display: grid;
+    margin: 0% 20%;
+    /* overflow-y: hidden; */
+
+}
+.tempate{
+    
+    overflow: hidden;
+    height: 100%;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
+}
+
+.tempate1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
+   
+}
+.tempate1  .sec-1{
+    height: 50%;
+    /* width: 100%; */
+/* padding: 2px; */
+    /* border: 1px solid yellow; */
+}
+.tempate1 .sec-2{
+    height: 50%;
+    width: 100%;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
+}
+
+
+.tempate2 .sec-1{
+    height: 100%;
+    display: flex;
+  margin-top: 2%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);  height: 100%;  
+    /* border: 1px solid black; */
+}
+.tempate2 .sec-1 .sec-inner{
+  /* border: 5px solid red; */
+  display: flex;
+  /* justify-content: space-around; */
+
+}
+.tempate2 .sec-2{
+    /* height: 100%; */
+    /* width: 100%; */
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
+}
+
+
+.tempate3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);    
+}
+.tempate3 .sec-1{ 
+    width: 100%;
+    height: 50%;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);}
+.tempate3 .sec-2{
+    height: 100%;
+}
+.tempate3 .sec-2 .sec-inner {
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
+}
+
+.tempate4 .sec-1,.sec-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);}
+.tempate4 .sec-1 .sec-inner,.sec-2 .sec-inner{
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);}
+
+/* .tempate4 .sec-1 .sec-inner,.sec-2 .sec-inner{
+    border: 2px solid gold;
+} */
+
+.tempate5 .sec-1,.sec-2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);}
+.tempate5 .sec-1 .sec-inner,.sec-2 .sec-inner{
+    margin-top: 2%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
+}
+.cntnt-img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
